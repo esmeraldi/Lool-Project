@@ -1,0 +1,19 @@
+$buildAllJs = $TRUE
+$useRetina = $FALSE
+$tscBuildAmdModule = $FALSE
+#$tscVersion = "0.9.1.1"
+#$tscVersion = "1.0.0.0"
+#$tscVersion = "1.0.1.0"
+#$tscVersion = "1.1.0.1"
+#$tscVersion = "1.3.0"
+$tscVersion = "1.4.1"
+$compressCss = $true
+
+$lessFiles = @()
+#$lessFiles = @("products.all.less")
+$lessFolder = @()
+#$lessFolder = @("..", "teaparty", "..\teaparty", "sitecore")
+$javaScriptBundles = @()
+#$javaScriptBundles = @("tea.js.bundle", "theparty/offtea.js.bundle")
+#$spritesLessTemplate -  = "[fix]" uses the default glue fix
+$spritesLessTemplate = "[fix]"

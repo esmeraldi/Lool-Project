@@ -1,0 +1,21 @@
+#This file can be used to extend the global settings with project specific settings if needed
+#Replace the spaceholder ProjectName therefore
+
+#$buildAllJs = $TRUE
+#$useRetina = $FALSE
+#$tscBuildAmdModule = $FALSE
+#$tscVersion = "0.9.1.1"
+#$tscVersion = "1.0.0.0"
+#$tscVersion = "1.0.1.0"
+#$tscVersion = "1.1.0.1"
+#$tscVersion = "1.3.0"
+#$tscVersion = "1.4.1"
+
+#$lessFolder = @("..", "teaparty", "..\teaparty", "sitecore")
+#$javaScriptBundles = @("tea.js.bundle", "theparty/offtea.js.bundle")
+#$spritesLessTemplate -  = "[fix]" uses the default glue fix
+$spritesLessTemplate = "[fix]"
+#$compressCss = $true
+
+#$partialProjects works only for project specific setting files
+#$partialProjects = @("productCatalog") 

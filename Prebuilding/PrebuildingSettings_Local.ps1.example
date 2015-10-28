@@ -1,0 +1,4 @@
+
+# Path to prebuilding tools directory. 
+# If empty the environment system variable 'PrebuildingToolsPath' is used instead.
+$prebuildingToolsPath = "C:\ToolPath\ToLocal\Or\UNC"
